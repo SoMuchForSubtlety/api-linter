@@ -50,7 +50,7 @@ func formatGitHubActionOutput(responses []lint.Response) []byte {
 			if uri != "" {
 				message += "%0A%0A" + uri
 			}
-			fmt.Fprintf(&buf, ",title=%s::%s", title, message)
+			fmt.Fprintf(&buf, ",title=%s::%s\n", title, message)
 		}
 	}
 
