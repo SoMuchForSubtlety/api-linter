@@ -1,4 +1,4 @@
-module github.com/googleapis/api-linter/v2
+module github.com/SoMuchForSubtlety/api-linter/v2
 
 go 1.25.0
 

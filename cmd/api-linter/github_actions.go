@@ -47,7 +47,7 @@ func formatGitHubActionOutput(responses []lint.Response) []byte {
 					fmt.Fprintf(&buf, ",col=%d", problem.Location.Span[1])
 					fallthrough
 				case 1:
-					fmt.Fprintf(&buf, ",line=%d", problem.Location.Span[0])
+					fmt.Fprintf(&buf, ",startLine=%d", problem.Location.Span[0])
 				}
 			}
 
