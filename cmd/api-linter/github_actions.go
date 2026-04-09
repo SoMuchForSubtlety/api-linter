@@ -45,12 +45,12 @@ func formatGitHubActionOutput(responses []lint.Response) []byte {
 			// with two Armenian full stops which are indistinguishable to my eye.
 			runeThatLooksLikeTwoColonsButIsActuallyTwoArmenianFullStops := "։։"
 			title := strings.ReplaceAll(string(problem.RuleID), "::", runeThatLooksLikeTwoColonsButIsActuallyTwoArmenianFullStops)
-			message := strings.ReplaceAll(problem.Message, "\n", "\\n")
+			message := strings.ReplaceAll(problem.Message, "\n", "%0A")
 			uri := problem.GetRuleURI()
 			if uri != "" {
-				message += "\\n\\n" + uri
+				message += "%0A%0A" + uri
 			}
-			fmt.Fprintf(&buf, ",title=%s::%s\n", title, message)
+			fmt.Fprintf(&buf, ",title=%s::%s", title, message)
 		}
 	}
 
