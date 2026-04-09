@@ -15,8 +15,8 @@
 package aip0132
 
 import (
-	"github.com/googleapis/api-linter/v2/lint"
-	"github.com/googleapis/api-linter/v2/rules/internal/utils"
+	"github.com/SoMuchForSubtlety/api-linter/v2/lint"
+	"github.com/SoMuchForSubtlety/api-linter/v2/rules/internal/utils"
 )
 
 // List methods should use the HTTP GET verb.

@@ -16,7 +16,7 @@
 package aip0146
 
 import (
-	"github.com/googleapis/api-linter/v2/lint"
+	"github.com/SoMuchForSubtlety/api-linter/v2/lint"
 )
 
 // AddRules adds all of the AIP-146 rules to the provided registry.

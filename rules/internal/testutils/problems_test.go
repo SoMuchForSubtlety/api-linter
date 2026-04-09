@@ -17,7 +17,7 @@ package testutils
 import (
 	"testing"
 
-	. "github.com/googleapis/api-linter/v2/lint"
+	. "github.com/SoMuchForSubtlety/api-linter/v2/lint"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protodesc"
 	dpb "google.golang.org/protobuf/types/descriptorpb"

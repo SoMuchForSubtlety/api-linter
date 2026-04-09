@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/googleapis/api-linter/v2/lint"
-	"github.com/googleapis/api-linter/v2/rules/internal/testutils"
+	"github.com/SoMuchForSubtlety/api-linter/v2/lint"
+	"github.com/SoMuchForSubtlety/api-linter/v2/rules/internal/testutils"
 )
 
 func TestFiltersFieldType(t *testing.T) {

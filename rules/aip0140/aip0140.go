@@ -18,7 +18,7 @@ package aip0140
 import (
 	"strings"
 
-	"github.com/googleapis/api-linter/v2/lint"
+	"github.com/SoMuchForSubtlety/api-linter/v2/lint"
 	"github.com/stoewer/go-strcase"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )

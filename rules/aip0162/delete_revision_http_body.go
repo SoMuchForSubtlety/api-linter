@@ -15,8 +15,8 @@
 package aip0162
 
 import (
-	"github.com/googleapis/api-linter/v2/lint"
-	"github.com/googleapis/api-linter/v2/rules/internal/utils"
+	"github.com/SoMuchForSubtlety/api-linter/v2/lint"
+	"github.com/SoMuchForSubtlety/api-linter/v2/rules/internal/utils"
 )
 
 // Delete Revision methods should have no HTTP body.

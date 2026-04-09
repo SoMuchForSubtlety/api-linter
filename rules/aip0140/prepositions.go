@@ -19,9 +19,9 @@ import (
 	"strings"
 
 	"bitbucket.org/creachadair/stringset"
-	"github.com/googleapis/api-linter/v2/lint"
-	"github.com/googleapis/api-linter/v2/locations"
-	"github.com/googleapis/api-linter/v2/rules/internal/data"
+	"github.com/SoMuchForSubtlety/api-linter/v2/lint"
+	"github.com/SoMuchForSubtlety/api-linter/v2/locations"
+	"github.com/SoMuchForSubtlety/api-linter/v2/rules/internal/data"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )
 

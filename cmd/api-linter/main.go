@@ -20,8 +20,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/googleapis/api-linter/v2/lint"
-	"github.com/googleapis/api-linter/v2/rules"
+	"github.com/SoMuchForSubtlety/api-linter/v2/lint"
+	"github.com/SoMuchForSubtlety/api-linter/v2/rules"
 )
 
 var (

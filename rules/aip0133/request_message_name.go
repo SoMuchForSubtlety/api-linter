@@ -15,8 +15,8 @@
 package aip0133
 
 import (
-	"github.com/googleapis/api-linter/v2/lint"
-	"github.com/googleapis/api-linter/v2/rules/internal/utils"
+	"github.com/SoMuchForSubtlety/api-linter/v2/lint"
+	"github.com/SoMuchForSubtlety/api-linter/v2/rules/internal/utils"
 )
 
 // Create method should have a properly named input message.

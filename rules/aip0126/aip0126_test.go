@@ -3,7 +3,7 @@ package aip0126
 import (
 	"testing"
 
-	"github.com/googleapis/api-linter/v2/lint"
+	"github.com/SoMuchForSubtlety/api-linter/v2/lint"
 )
 
 func TestAddRules(t *testing.T) {

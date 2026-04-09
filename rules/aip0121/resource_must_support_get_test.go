@@ -17,8 +17,8 @@ package aip0121
 import (
 	"testing"
 
-	"github.com/googleapis/api-linter/v2/lint"
-	"github.com/googleapis/api-linter/v2/rules/internal/testutils"
+	"github.com/SoMuchForSubtlety/api-linter/v2/lint"
+	"github.com/SoMuchForSubtlety/api-linter/v2/rules/internal/testutils"
 )
 
 // TestResourceMustSupportGet tests the resourceMustSupportGet

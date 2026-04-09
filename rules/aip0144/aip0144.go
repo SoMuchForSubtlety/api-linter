@@ -18,7 +18,7 @@ package aip0144
 import (
 	"regexp"
 
-	"github.com/googleapis/api-linter/v2/lint"
+	"github.com/SoMuchForSubtlety/api-linter/v2/lint"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )
 

@@ -15,9 +15,9 @@
 package aip0162
 
 import (
-	"github.com/googleapis/api-linter/v2/lint"
-	"github.com/googleapis/api-linter/v2/locations"
-	"github.com/googleapis/api-linter/v2/rules/internal/utils"
+	"github.com/SoMuchForSubtlety/api-linter/v2/lint"
+	"github.com/SoMuchForSubtlety/api-linter/v2/locations"
+	"github.com/SoMuchForSubtlety/api-linter/v2/rules/internal/utils"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )
 
